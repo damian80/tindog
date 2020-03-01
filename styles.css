@@ -2,9 +2,12 @@
     background-color: #ff4c68;
 }
 
+.container-fluid {
+    padding: 3%;
+}
+
 h1 {
-
-    font-size: 30rem;
+    font-family: "Montserrat-Black";
     line-height: 1.5;
-
+    font-size: 3rem;
 }
