@@ -51,6 +51,8 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(20deg);
+
+
 }
 
 /* Features */
@@ -78,6 +80,9 @@ h1 {
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+
+
 }
 
 h3 {
@@ -113,4 +118,45 @@ h3 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.button {
+    padding: 10px 100px 10px 100px;
+    /* margin-left: 20%; */
+    text-align: center;
+    background-color: #007bff;
+    border: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button.clear {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+@media(max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
 }
