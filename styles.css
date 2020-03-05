@@ -160,3 +160,30 @@ button.clear {
         text-align: center;
     }
 }
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+    line-height: 3.5;
+}
+
+
+
+.media {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fab {
+    margin: 10px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 7% 15%;
+}
